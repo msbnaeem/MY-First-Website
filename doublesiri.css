@@ -1,0 +1,106 @@
+/* Majority of css is same through out the website!*/
+
+
+/* nevigation class */
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content:  space-between;
+  list-style: none;
+  list-style-type: none;
+  padding: 50px;
+
+  font-family: cursive;
+}
+/* nav ul > list  */
+li{
+  width: auto;
+  background-color: #8cacea;
+  border-radius: 80px;
+  padding: 13px;
+
+}
+/* nav link hovering */
+li:hover{
+  background-color: silver;
+}
+/* nav > ul > li > a */
+li a{
+  color: black;
+  text-decoration: none;
+  cursor: pointer
+}
+/* for the first headings */
+.homedescription, .gallerydescription, .mydescription, .history{
+  text-align: center;
+  font-family: cursive;
+}
+/* age's textarea modification */
+input[id=age]{
+  border: none;
+  border-bottom: 8px solid lightblue;
+}
+/* form's labe */
+label{
+  width: 50px;
+}
+/* button class */
+.button{
+  border-radius: 80px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+/* button class's hovering */
+.button:hover{
+  background-color: silver;
+  color: red;
+}
+
+/* body */
+body{
+  background-color: lightyellow;
+  margin: 15px;
+  display: block;
+  /* flex-wrap: wrap; */
+
+}
+
+/* ids for same width */
+#oneHand, #hearts, #somepic, #teamates, #uncc, #oldpic{
+  width: 600px;
+  height: 500px;
+}
+
+/* .pics img{
+  width = 600px
+  position: relative;
+} */
+
+/* for main */
+main{
+  border: 3px solid brown;
+  padding: 0px 30px 400px 30px;
+  display: block;
+  font-size: 20pt;
+  margin: auto;
+  text-align: center;
+}
+
+/* make table for class="pics" hide the borders and make the pictures
+in the middle */
+
+
+
+
+/* footer */
+footer{
+  display: flex;
+  background-color: Grey;
+  justify-content: space-between;
+  padding: 30px;
+}
+/* footer descends a */
+footer a{
+  color: black;
+  cursor: pointer
+}
